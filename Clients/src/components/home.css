@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.Home {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  /* font-family: "Poppins", sans-serif; */
+  top: 0;
+}
+
+h5 {
+  font-size: 32px;
+}
+.Home header {
+  top: 0;
+  width: 90vw;
+  padding: 15px 90px;
+  background-color: #f0f3f8;
+  z-index: 2;
+  position: fixed;
+  overflow: hidden;
+}
+
+.Home .collegelogo {
+  margin-top: 5px;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.Home nav {
+  margin-top: -45px;
+}
+
+.Home ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.Home li {
+  float: right;
+}
+
+.Home li a {
+  display: block;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  color: #2f4155;
+}
+
+.Home li a:hover {
+  color: #b651f1;
+}
+
+.Home button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-top: 5px;
+  padding: 9px 20px;
+  border-radius: 3px;
+  border: 1px solid #938e8a;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+.Home #signin {
+  margin-left: 25px;
+  margin-right: 10px;
+  color: #352d25;
+}
+
+.Home #signup {
+  background-color: #b651f1;
+  color: white;
+  border-color: #b651f1;
+}
+
+.Home .words {
+  padding-top: 100px;
+  color: #352d25;
+}
+
+.Home .words h1 {
+  font-size: 40px;
+}
+
+.Home a.active {
+  color: #b651f1;
+}
+
+.Home .content {
+  position: static;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 248, 240, 1) 100%
+  );
+  height: 700px;
+}
+
+.Home section {
+  display: flex;
+  padding: 10px 30px;
+}
+
+.Home section > div {
+  width: 30%;
+  margin: 50px 50px;
+}
+
+.Home section img {
+  margin: 10px;
+}
+
+.Home section h2 {
+  font-weight: 600;
+}
+
+.Home .signupnow {
+  background-color: #b651f1;
+  color: white;
+  border-color: #b651f1;
+  margin-left: 45%;
+}
+
+.Home .content2 {
+  padding-top: 100px;
+  top: 50px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 248, 240, 1) 100%
+  );
+  height: 550px;
+}
+
+.Home .comments {
+  display: flex;
+  margin: 0;
+}
+
+.Home .content2 h1 {
+  padding-left: 30px;
+  margin-top: 0%;
+  color: #352d25;
+}
+
+.Home .comments > div {
+  width: 40%;
+  margin: 20px;
+  background-color: #b651f1;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.Home .content3 {
+  padding-top: 110px;
+}
+
+.Home .circlegrad {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background: linear-gradient(180deg, #fff0f594 100%, #f8bbd0 0%);
+  height: 600px;
+  color: #352d25;
+  text-align: center;
+  padding: 200px 400px;
+  padding-bottom: 0px;
+}
+
+.Home .circlegrad p {
+  color: #6b88a9;
+  padding: 30px 0px;
+}
+
+.Home .content4 {
+  background: linear-gradient(0deg, #ffffff 0%, #fff0f594 100%);
+  margin-top: 0%;
+  padding: 0px 100px;
+  height: 700px;
+  padding-top: 100px;
+}
+
+.Home .content4 h1 {
+  margin-top: 0%;
+}
+
+.Home .res {
+  display: flex;
+  padding-top: 30px;
+}
+
+.Home .res > div {
+  width: 40%;
+  margin-right: 30px;
+  margin-bottom: 80px;
+}
+
+.Home .res img {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.Home .res p,
+.Home .res h2 {
+  margin: 10px;
+  line-height: 30px;
+}
+
+.Home hr {
+  border-color: #fff6ef;
+  margin: 0px 100px;
+}
+
+.Home footer {
+  bottom: 0%;
+  margin-bottom: 0%;
+  display: flex;
+  height: 250px;
+  color: #352d25;
+  padding-right: 80px;
+}
+
+.Home .clglogo {
+  padding-left: 120px;
+  padding-top: 40px;
+  margin-right: 60px;
+}
+
+.Home footer > div {
+  width: 30%;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.Home footer h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.Home footer li {
+  float: left;
+}
+
+.Home input {
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid #dbd9d8e6;
+  margin-bottom: 10px;
+}
+
+.Home input::placeholder {
+  color: #aec2db;
+  padding-left: 10px;
+}
+
+.Home footer li:hover {
+  color: #b651f1;
+}
+
+.Home p {
+  text-align: left;
+  margin: 0%;
+}
+
+.Home footer hr {
+  margin: 0;
+}

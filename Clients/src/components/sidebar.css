@@ -1,0 +1,27 @@
+.sidebar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  width: 25%;
+  background-color: #f39fd6;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar-item {
+  display: block;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+.sidebar-item:hover {
+  background-color: #b651f1;
+  color: aliceblue;
+  font-weight: bold;
+}
+.active {
+  background-color: #b651f1;
+  color: aliceblue;
+  font-weight: bold;
+}
